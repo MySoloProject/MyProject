@@ -17,7 +17,7 @@
 			<li>A simple check if you are infected or not</li>
 			<li>Advices to protect yourself</li>
 		</ul>
-		<p id="p2">Click on the start button if want to go next page</p>
+		<p id="p2">Click on the start button if want to go next page</p><br>
 		<button id="strb">Start</button>
 	</div>
 	<div id="secondDiv">
@@ -27,62 +27,87 @@
 			<label class="lnfo">City:</label><input type="text" name="city"><br>
 	    </form>
 
-	    <form class="formQC">
+	    <form id="formQC1">
 	    	<h2 id="CS"> The most common symptoms of covid-19 disease </h2>
 	    	<p id="QC1">Q</p>
-	    	<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
-		
-	    	<p id="QC2">Q</p>
-	    	<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
+	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+			<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
+		</form>
 
+		<form id="formQC2">
+	    	<p id="QC2">Q</p>
+	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+			<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
+			</form>
+
+			<form id="formQC3">
 	    	<p id="QC3">Q</p>
-	    	<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
+	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+			<input type="radio" name="CS" value="Yes"><label class="Qcommon2"></label><br>
 		</form>
 
 		
 
-		<form class="formAQ">
+		  <form class="formAQ1">
 			<h2 id="AC"> The less most common symptoms of covid-19 disease</h2>
 			<p id="AC1">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>		
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			</form>	
+
+			<form class="formAQ2">	
 			<p id="AC2">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+		    </form>
 
+		    <form class="formAQ3">
 			<p id="AC3">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+		   </form>
 
+
+
+          <form class="formAQ4">
 			<p id="AC4">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>		
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="CS" value="No"><label class="Qcommonc2"></label><br>
+			</form>
+			<form class="formAQ5">		
 			<p id="AC5">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>		
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			</form>
+			<form class="formAQ6">		
 			<p id="AC6">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+		     </form>
+		     <form class="formAQ7">
 
 			<p id="AC7">Q</p>
-			<input type="radio" name="CS" value="choice1"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="choice2"><label class="Qcommon2"></label><br>
-
+			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
 	    </form>
 
 	    <form class="formDS">
 	    	<h2 id="DS">Do you have any of these symptoms?</h2>
-	    	<input type="checkbox" name="AS" value="choice1"><label id="DS1"></label><br>
-			<input type="checkbox" name="AS" value="choice2"><label id="DS2"></label><br>	
-			<input type="checkbox" name="AS" value="choice3"><label id="DS3"></label><br>
-			<input type="checkbox" name="AS" value="choice4"><label id="DS4"></label><br>
-			<input type="checkbox" name="AS" value="choice5"><label id="DS5"></label><br>
+	    	<input type="checkbox" name="DS1" value="Trouble breathing">
+	    	<label id="DS1"></label><br>
+			<input type="checkbox" name="DS2" value="Persistent chest pain or pressure">
+			<label id="DS2"></label><br>	
+			<input type="checkbox" name="DS3" value="Inability to stay awake">
+			<label id="DS3"></label><br>
+			<input type="checkbox" name="DS4" value="New confusion">
+			<label id="DS4"></label><br>
+			<input type="checkbox" name="DS5" value="Blue lips or face">
+			<label id="DS5"></label><br>
 	    </form>
 	    
 	</div>
+
+	<button id="f">finish</button>
 
     <script src="main.js" ></script>
 </body>
