@@ -1,39 +1,138 @@
-/*/*body{
-	background-image: url(bg.gif);
-}*/
+body{
+  background-color: rgb(135,206,250,0.3);
+}
+
+#logo{
+  position:absolute; 
+  top:0; 
+  left:20px;
+  height: 100px;
+  width: 100px;
+}
+
 #startDiv{
-  /*background-image: url(image1.gif);*/
- max-width: 600px;
- padding-top: 20px;
- padding-left: 80px;
-  /*padding: 50px;
+  width: 1200px;
+  padding: 50px;
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
-  border: 5px ridge lightpink;*/
   margin: auto;
-  /*border-radius: 6px;
-  box-shadow:5px 5px lightgray;*/
   text-align: center;
+  background-color: lightblue;
 }
+
+
+#header1{
+  color: blue;
+  font-size: 50px;
+  text-shadow: 5px 5px white;
+}
+
+#p1{
+  font-size: 25px;
+  font-weight: bold;
+}
+
 #strb{
-	color:white;
-  padding: 5px 12px;
-  text-align: center;
-  background: skyblue;
+  color:white;  
+  background: rgb(135,206,235,0.75);
   size:100px;
   font-size: bold;
-  font-size: 30px;
+  font-size: 80px;
   cursor: pointer;
   border-radius: 6px;
   border-color: gray;
-  height:50px; 
-  width:100px; 
-  margin: -20px -50px; 
-  position:relative;
-  top:50%; 
-  left:50%;
+  box-shadow: 10px 10px lightgray;
 }
-/*#secondDiv{
-	display: none;
-}*/
+
+#secondDiv{
+  display: none;
+  padding: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin: auto;
+  text-align: left;
+  font-size: 19px;
+
+}
+
+.Qcommon1,.Qcommonc1{
+  color: blue;
+}
+
+.Qcommon2,.Qcommonc2{
+  color: red;
+}
+
+#AC,#CS{
+  text-decoration: underline;
+}
+
+#DS{
+   text-decoration: underline;
+}
+
+#result{
+  display: none;
+  margin: auto;
+  text-align: center;
+  color:white;  
+  background: rgb(255,0,0,0.3);
+  size:100px;
+  font-size: bold;
+  font-size: 80px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: gray;
+  box-shadow: 10px 10px lightgray;
+}
+
+#p2{
+  display: none;
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+  text-align: left;  
+}
+
+footer {
+   position: relative;
+   margin: auto;
+   left: 0;
+   bottom: 0;
+   width: 1350px;
+   background-color: lightblue;
+   color: blue;
+   font-size: 25px;
+   text-align: left;
+   font-size: 30px;
+  text-decoration: underline;   
+}
+
+#target1{
+margin-top: -45px;
+float: right;
+text-decoration: underline;
+}
+#target2{
+margin-top: -85px;
+float: right;
+text-decoration: underline;
+}
+
+/*style for new page*/
+#AB{
+  background-color: lightblue;
+  text-align: left;  
+  font-size: 20px;
+}
+
+#about{
+  background-color: lightblue;
+  text-align: left;  
+  font-size: 20px;
+}
+
+
+

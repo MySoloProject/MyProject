@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Covid-19</title>
-	<script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div id="startDiv">
-		<h1 id="header1"> Covid-19</h1>
-		<p id="p1">This website show you:</p>
-		<ul>
-			<li>Information about Covid-19</li>
-			<li>A simple check if you are infected or not</li>
-			<li>Advices to protect yourself</li>
-		</ul>
-		<p id="p2">Click on the start button if want to go next page</p><br>
-		<button id="strb">Start</button>
-	</div>
-	<div id="secondDiv">
-		<form id="form1">
-            <label class="lnfo">Name:</label><input type="text" name="name"><br>
-			<label class="lnfo">Age: </label><input type="text" name="age"><br>
-			<label class="lnfo">City:</label><input type="text" name="city"><br>
-	    </form>
+	<head>
+		<title>Covid-19</title>
+		<script
+	      src="https://code.jquery.com/jquery-3.5.1.min.js"
+	      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+	      crossorigin="anonymous"></script>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<img id ="logo" src="logo.png" alt="Girl in a jacket">
+		<div id="startDiv">
+			<h1 id="header1"> Covid-19 virus</h1>
+			
+			<p id="p1">
+				Click on the start button if want to know more information about Covid-19 virus
+			 </p><br>
 
-	    <form id="formQC1">
-	    	<h2 id="CS"> The most common symptoms of covid-19 disease </h2>
-	    	<p id="QC1">Q</p>
-	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
-		</form>
+			<button id="strb">Start</button>		
+		</div>
 
-		<form id="formQC2">
-	    	<p id="QC2">Q</p>
-	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
+		<div id="secondDiv">
+
+	        <form id="formQC1">
+		    	<h2 id="CS"> The most common symptoms of covid-19 disease </h2>
+		    	<p id="QC1">Q</p>
+		    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+				<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
+			</form>
+
+			<form id="formQC2">
+		    	<p id="QC2">Q</p>
+		    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+				<input type="radio" name="CS" value="No"><label class="Qcommon2"></label><br>
 			</form>
 
 			<form id="formQC3">
-	    	<p id="QC3">Q</p>
-	    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
-			<input type="radio" name="CS" value="Yes"><label class="Qcommon2"></label><br>
-		</form>
+		    	<p id="QC3">Q</p>
+		    	<input type="radio" name="CS" value="Yes"><label class="Qcommon1"></label><br>
+				<input type="radio" name="CS" value="Yes"><label class="Qcommon2"></label><br>
+			</form>
 
-		
-
-		  <form class="formAQ1">
-			<h2 id="AC"> The less most common symptoms of covid-19 disease</h2>
-			<p id="AC1">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			<form id="formAQ1">
+				<h2 id="AC"> The less most common symptoms of covid-19 disease</h2>
+				<p id="AC1">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
 			</form>	
 
-			<form class="formAQ2">	
-			<p id="AC2">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			<form id="formAQ2">	
+				<p id="AC2">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			</form>
+
+			<form id="formAQ3">
+				<p id="AC3">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+			</form>
+
+	        <form id="formAQ4">
+				<p id="AC4">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="CS" value="No"><label class="Qcommonc2"></label><br>
 		    </form>
 
-		    <form class="formAQ3">
-			<p id="AC3">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
-		   </form>
-
-
-
-          <form class="formAQ4">
-			<p id="AC4">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="CS" value="No"><label class="Qcommonc2"></label><br>
+			<form id="formAQ5">		
+				<p id="AC5">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
 			</form>
-			<form class="formAQ5">		
-			<p id="AC5">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+
+			<form id="formAQ6">		
+				<p id="AC6">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
 			</form>
-			<form class="formAQ6">		
-			<p id="AC6">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
-		     </form>
-		     <form class="formAQ7">
 
-			<p id="AC7">Q</p>
-			<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
-			<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
-	    </form>
+		    <form id="formAQ7">
+				<p id="AC7">Q</p>
+				<input type="radio" name="AS" value="Yes"><label class="Qcommonc1"></label><br>
+				<input type="radio" name="AS" value="No"><label class="Qcommonc2"></label><br>
+		    </form>
 
-	    <form class="formDS">
-	    	<h2 id="DS">Do you have any of these symptoms?</h2>
-	    	<input type="checkbox" name="DS1" value="Trouble breathing">
-	    	<label id="DS1"></label><br>
-			<input type="checkbox" name="DS2" value="Persistent chest pain or pressure">
-			<label id="DS2"></label><br>	
-			<input type="checkbox" name="DS3" value="Inability to stay awake">
-			<label id="DS3"></label><br>
-			<input type="checkbox" name="DS4" value="New confusion">
-			<label id="DS4"></label><br>
-			<input type="checkbox" name="DS5" value="Blue lips or face">
-			<label id="DS5"></label><br>
-	    </form>
-	    
-	</div>
+		    <form class="formDS">
+		    	<h2 id="DS">Do you have any of these symptoms?</h2>
+		    	<input type="checkbox" name="DS1" value="Trouble breathing">
+		    	<label id="DS1"></label><br>
+				<input type="checkbox" name="DS1" value="Persistent chest pain or pressure">
+				<label id="DS2"></label><br>	
+				<input type="checkbox" name="DS1" value="Inability to stay awake">
+				<label id="DS3"></label><br>
+				<input type="checkbox" name="DS1" value="New confusion">
+				<label id="DS4"></label><br>
+				<input type="checkbox" name="DS1" value="Blue lips or face">
+				<label id="DS5"></label><br>
+		    </form>
+		</div>
 
-	<button id="f">finish</button>
+		<div id="thirdDiv">
+			<button id="result">Show Result</button>
+			<pre id="p2"></pre>
+		</div>
 
-    <script src="main.js" ></script>
-</body>
+		<footer>
+		  <p id="p3">covid-19<br>
+		  <a id="email" href="diwan@moh.gov.jo">Email:diwan@moh.gov.jo</a><br>
+		  <a id="phone" href="tel:111">phone:111</a><br>
+		  <span id="target1">Advices</span>
+		  <span id="target2">About</span>
+		</footer>
+
+	    <script src="main.js" ></script>
+
+	</body>
 </html>
